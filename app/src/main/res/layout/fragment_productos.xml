@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.productos.ProductosFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!--    Caja Codigo 1-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="25dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imgP1"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_weight="1"
+                android:src="@drawable/hamburguesa"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvNameP1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Combo Hamburguesa" />
+
+                <TextView
+                    android:id="@+id/tvDescriptionP1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hamburgusa doble carne, papas y gaseosa" />
+
+                <TextView
+                    android:id="@+id/tvpriceP1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="15,600$" />
+            </LinearLayout>
+        </LinearLayout>
+        <!--    Caja Codigo 2-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="25dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imgP2"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_weight="1"
+                android:src="@drawable/burrito" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvNameP2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Burritos" />
+
+                <TextView
+                    android:id="@+id/tvDescriptionP2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ingredientes a elegir" />
+
+                <TextView
+                    android:id="@+id/tvpriceP2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="8,000$" />
+            </LinearLayout>
+        </LinearLayout>
+        <!--    Caja Codigo 3-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="25dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imgP3"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_weight="1"
+                android:src="@drawable/sandwich" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvNameP3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sandwich" />
+
+                <TextView
+                    android:id="@+id/tvDescriptionP3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sandwich de pollo con verduras y queso" />
+
+                <TextView
+                    android:id="@+id/tvpriceP3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="8,000$" />
+            </LinearLayout>
+        </LinearLayout>
+        <!--    Caja Codigo 4-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="25dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imgP4"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_weight="1"
+                android:src="@drawable/pizza" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvNameP4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pizza Napolitana" />
+
+                <TextView
+                    android:id="@+id/tvDescriptionP4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pizza 3 quesos con peperoni" />
+
+                <TextView
+                    android:id="@+id/tvpriceP4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="16.000$" />
+            </LinearLayout>
+        </LinearLayout>
+        <!--    Caja Codigo 5-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="25dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imgP5"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_weight="1"
+                android:src="@drawable/malteada" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvNameP5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Malteada" />
+
+                <TextView
+                    android:id="@+id/tvDescriptionP5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Malteada de chocolate" />
+
+                <TextView
+                    android:id="@+id/tvpriceP5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="6,500$" />
+            </LinearLayout>
+        </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
